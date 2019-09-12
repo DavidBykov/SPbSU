@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <locale.h>
-#define swap(x, y) x = x + y; y = x - y; x = x - y;
+#define swap(x, y) x = x + y; y = x - y; x = x - y;	
 
 int min(int a, int b)
 {
