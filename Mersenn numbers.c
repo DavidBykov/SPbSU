@@ -1,4 +1,4 @@
-#include <stdio.h>
+ï»¿#include <stdio.h>
 #include <locale.h>
 
 int isPrime(unsigned int x)
@@ -27,7 +27,7 @@ int main()
 		x = x << 1;
 		if (isPrime(x - 1))
 		{
-			printf("×èñëî %u - ïðîñòîå\n", x - 1);
+			printf("Ð§Ð¸ÑÐ»Ð¾ %u - Ð¿Ñ€Ð¾ÑÑ‚Ð¾Ðµ\n", x - 1);
 		}
 	}
 	return 0;
