@@ -5,7 +5,7 @@
 #include <map.h>
 
 
-char used[N * N];
+char used[N * M];
 map_long_t map;
 
 
